@@ -1,4 +1,50 @@
-# Sentiment Analysis Using Bi-directional LSTMs
+# LSTM Sentiment Analysis - Block Diagram
 
-I make use of bi-directional LSTMs to perform sentiment analysis on movie reviews. The data was sourced through an IMDB movie review dataset [can be found in Kaggle]. The text data was preprocessed and then converted to vectors using one hot encoding. The resulting bidirectional LSTM had an accuracy of 87.37% in accurately identifying the sentiment of the review.
+## Overview
+This project performs **Sentiment Analysis on IMDB Reviews** using **Bi-directional LSTMs**.
+
+## Process Flow
+Below is the **block diagram** representing the major steps involved in the LSTM model pipeline:
+
+![LSTM Block Diagram](./lstm_block_diagram.png)
+
+## Steps in the Pipeline
+
+1. **Data Collection** 📥
+   - IMDB dataset is used for training and testing.
+
+2. **Text Preprocessing** ✂️
+   - Tokenization, stopword removal, and lemmatization.
+   - Converts text into numerical format using **one-hot encoding**.
+   - Sequences are padded to ensure uniform input size.
+
+3. **Data Splitting** 🔄
+   - The dataset is divided into **training** and **testing** sets.
+
+4. **Embedding Layer** 🔢
+   - Converts words into numerical representations for input to the LSTM model.
+
+5. **Bi-directional LSTM** 🧠
+   - Processes text sequences forward and backward to understand context.
+
+6. **Dropout Layer** ⚠️
+   - Helps in **regularization** to prevent overfitting.
+
+7. **Dense Layer** 🎯
+   - Final prediction layer that classifies sentiment (positive/negative).
+
+8. **Model Evaluation** 📊
+   - Evaluates **accuracy, loss, recall, and precision**.
+
+## Repository Structure
+```
+📂 Project Folder
+ ├── 📄 LSTM_Model_Report.ipynb    # Jupyter notebook with full model implementation
+ ├── 📄 README.md                  # Project documentation
+ ├── 📄 lstm_block_diagram.md      # Block diagram explanation (this file)
+ ├── 🖼️ lstm_block_diagram.png      # Block diagram image
+ ├── 📂 dataset                    # IMDB dataset files
+```
+
+For further details, refer to the **Jupyter Notebook** in this repository. 🚀
 

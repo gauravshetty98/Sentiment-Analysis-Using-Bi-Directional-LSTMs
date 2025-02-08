@@ -3,10 +3,6 @@
 ## Overview
 This project performs **Sentiment Analysis on IMDB Reviews** using **Bi-directional LSTMs**.
 
-## Process Flow
-Below is the **block diagram** representing the major steps involved in the LSTM model pipeline:
-
-![LSTM Block Diagram](./lstm_block_diagram.png)
 
 ## Steps in the Pipeline
 

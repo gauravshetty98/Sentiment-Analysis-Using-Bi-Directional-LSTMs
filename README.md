@@ -37,9 +37,6 @@ This project performs **Sentiment Analysis on IMDB Reviews** using **Bi-directio
 📂 Project Folder
  ├── 📄 LSTM_Model_Report.ipynb    # Jupyter notebook with full model implementation
  ├── 📄 README.md                  # Project documentation
- ├── 📄 lstm_block_diagram.md      # Block diagram explanation (this file)
- ├── 🖼️ lstm_block_diagram.png      # Block diagram image
- ├── 📂 dataset                    # IMDB dataset files
 ```
 
 For further details, refer to the **Jupyter Notebook** in this repository. 🚀
